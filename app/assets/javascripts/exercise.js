@@ -1,7 +1,4 @@
 $(document).ready(function() {
-<<<<<<< HEAD
-  $('#workout-date').datepicker({ dateFormat: 'yy-mm-dd' });
-=======
 $('#exercise_workout_date').datepicker({ dateFormat: 'yy-mm-dd' });
 
 new Morris.Line({
@@ -24,5 +21,5 @@ return date_string;
 },
 yLabelFormat: function(y) { return y + ' min'; }
 });
->>>>>>> listing-workouts
+
 });
