@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.feature "Editing Exercise" do
 
   before do
-    @owner = User.create(email: "john@exapmle.com", password: "password")
+    @owner = User.create(first_name: "john", last_name: "Doe", email: "john@exapmle.com", password: "password")
 
     @owner_exer = @owner.exercises.create!(duration_in_min: 45,
             workout: "cardio",
