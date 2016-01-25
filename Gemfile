@@ -11,6 +11,7 @@ gem 'sqlite3'
 gem 'jquery-ui-rails', '5.0.5'
 gem 'jquery-turbolinks'
 gem 'will_paginate-bootstrap'
+gem 'date_validator'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
